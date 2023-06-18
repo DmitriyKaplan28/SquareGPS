@@ -1,8 +1,8 @@
 <template>
   <div>
     <nav>
-      <router-link to="/">Task</router-link>
-      <router-link to="/maps">Map</router-link>
+      <router-link to="/">О задании</router-link>
+      <router-link to="/maps">Карта</router-link>
     </nav>
     <router-view/>
   </div>
@@ -11,8 +11,7 @@
 
 <script>
 export default {
-  name: 'Navbar',
-  props: {}
+  name: 'Navbar'
 }
 </script>
 
